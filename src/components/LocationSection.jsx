@@ -11,7 +11,7 @@ const LocationSection = () => {
           </p>
         </div>
         <div className="lg:flex lg:items-center lg:justify-between">
-          <div className="lg:w-1/2">
+          <div className="flex justify-center items-center w-full aspect-[2/1] lg:w-1/2 ">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d261.9462243940076!2d77.06049111653506!3d28.36252976451676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d2346be145b3b%3A0x4930218ec0826108!2sShivansh%20Old%20Furniture%20%26%20Electronics!5e0!3m2!1sen!2sin!4v1739427931752!5m2!1sen!2sin"
               style={{ border: 0 }}
@@ -20,7 +20,7 @@ const LocationSection = () => {
               referrerPolicy="no-referrer-when-downgrade"
               width={600}
               height={400}
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg w-[100%] sm:w-[80%] aspect-[2/1] md:w-[70%] h-full object-cover object-center"
             />
           </div>
           <div className="mt-10 lg:mt-0 lg:w-1/2 lg:pl-12">
