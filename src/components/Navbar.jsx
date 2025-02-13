@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="text-xl font-bold">
-              Yash Law Associates
+              Yash Law & Associates
             </Link>
           </div>
           <div className="hidden md:block">

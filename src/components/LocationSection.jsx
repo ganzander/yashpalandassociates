@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const LocationSection = () => {
   return (
     <section id="location" className="py-12 bg-gray-100">
@@ -27,24 +25,20 @@ const LocationSection = () => {
           </div>
           <div className="mt-10 lg:mt-0 lg:w-1/2 lg:pl-12">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Law Associates Headquarters
+              Yash Law & Associates
             </h3>
             <p className="text-gray-600 mb-4">
-              123 Legal Street, Cityville, State 12345
-            </p>
-            <p className="text-gray-600 mb-4">
-              Our office is conveniently located in the heart of downtown,
-              easily accessible by public transportation and with ample parking
+              Our office is conveniently located near to Maruti Kunj Mour
+              Bhondsi Sohna Road, Delhi-Mumbai Expressway, Gurugram, easily
+              accessible by public transportation and with ample parking
               available.
             </p>
             <p className="text-gray-600 mb-4">
               <strong>Office Hours:</strong>
               <br />
-              Monday - Friday: 9:00 AM - 6:00 PM
+              Monday - Saturday: 10:00 AM to 8:00 PM
               <br />
-              Saturday: 10:00 AM - 2:00 PM
-              <br />
-              Sunday: Closed
+              Sunday: 11:00 AM to 5:00 PM
             </p>
             <p className="text-gray-600">
               For appointments outside of regular business hours, please contact

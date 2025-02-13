@@ -44,11 +44,10 @@ const Footer = () => {
             </ul>
           </div>
           {/* Right */}
-          <div>
+          <div className="space-y-4">
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <p className="text-sm">
-              Court Chamber: Ch. No. 63, Shaheed Sukhdev Singh Block, Near Gate
-              No. 1, Distt. Courts, Gurugram & Sub Division Sohna Court
+              Court Chamber: Ch. No. 63, District Court, Gurugram
             </p>
             <p className="text-sm">
               Office Address: Near Maruti Kunj Mour Bhondsi Sohna Road,

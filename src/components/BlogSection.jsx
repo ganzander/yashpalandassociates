@@ -1,26 +1,25 @@
 import Image from "next/image";
 import Link from "next/link";
-
 const blogPosts = [
   {
-    title: "Understanding Your Rights in a Criminal Case",
+    title: "Justice in India: Understanding Your Legal Rights",
     excerpt:
-      "Learn about the key rights you have when facing criminal charges and how to protect yourself.",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+      "Explore the fundamental rights and legal protections available in India's justice system to ensure fair treatment under the law.",
+    imageUrl: "/india.png",
     date: "June 1, 2023",
   },
   {
-    title: "The Importance of Contracts in Business",
+    title: "The Role of Justice in Modern Legal Systems",
     excerpt:
-      "Discover why well-drafted contracts are crucial for protecting your business interests.",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+      "Justice is the foundation of a fair society. Learn how legal frameworks ensure fairness, accountability, and equality before the law.",
+    imageUrl: "/justice-main.png",
     date: "May 15, 2023",
   },
   {
-    title: "Navigating the Complexities of Divorce Law",
+    title: "Pillars of Justice: Law and Order in Society",
     excerpt:
-      "A guide to understanding the legal aspects of divorce and how to protect your interests.",
-    imageUrl: "/placeholder.svg?height=200&width=300",
+      "Understanding the principles of justice helps maintain social order and protect individual rights in legal systems worldwide.",
+    imageUrl: "/justice.png",
     date: "April 30, 2023",
   },
 ];
