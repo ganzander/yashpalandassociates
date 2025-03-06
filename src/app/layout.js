@@ -1,6 +1,5 @@
-import Navbar from "@/components/Navbar";
+import { Toaster } from "react-hot-toast";
 import "./globals.css";
-import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Law Associates",
@@ -11,9 +10,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body suppressHydrationWarning>
-        <Navbar />
-        <main>{children}</main>
-        <Footer />
+        {children}
+        <Toaster position="bottom-right" reverseOrder={false} />
       </body>
     </html>
   );
