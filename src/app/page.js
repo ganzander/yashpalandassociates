@@ -10,7 +10,7 @@ export default function Page() {
       <HeroSection />
       <FeaturesSection />
       <LocationSection />
-      <BlogSection />
+      {/* <BlogSection /> */}
       <ContactSection />
     </>
   );
