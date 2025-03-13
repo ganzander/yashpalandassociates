@@ -145,7 +145,7 @@ export default function SearchAdvocate() {
         <div className="mt-4">
           <button
             onClick={resetFilters}
-            className="bg-black text-white px-4 py-2 rounded hover:bg-gray-300"
+            className="bg-black text-white px-4 py-2 rounded hover:bg-black"
           >
             Reset Filters
           </button>

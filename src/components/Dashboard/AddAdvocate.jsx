@@ -172,7 +172,7 @@ export default function AddAdvocate() {
             <button
               type="submit"
               disabled={loading}
-              className="bg-blue-800 text-white px-4 py-2 rounded hover:bg-blue-700 disabled:opacity-50"
+              className="bg-black text-white px-4 py-2 rounded hover:bg-black disabled:opacity-50"
             >
               {loading ? "Adding..." : "Add Advocate"}
             </button>
